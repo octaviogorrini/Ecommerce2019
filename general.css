@@ -1,3 +1,133 @@
-body {
-    background: red;
-}
+.log{
+    width: 100%;
+    padding-right: 5%;
+    background-color: #6F2B69;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .log a{
+    font-size: 1em;
+    float: right;
+    color: white;
+    padding: 5px;
+    margin-right: 1%;
+    text-decoration: none;
+  }
+  nav{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  nav a{
+    font-size: 1.5em;
+    float: right;
+    color: white;
+    padding: 5px;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    box-sizing: border-box;
+  
+  }
+  
+  nav a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  header{
+  position: fixed;
+  top: 0;
+  height: 20%;
+  width: 100vw;
+  background-color: #C59BC2;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-sizing: border-box;
+  }
+  
+  .relleno{
+  height: 20vh;
+  width: 100%;
+  overflow: hidden;
+  }
+  
+  .cate{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom:5%;
+  }
+  .categoria{
+    background-color: red;
+    width: 50%;
+    height:100%;
+  
+  }
+  
+  .categoria2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: red;
+    width: 50%;
+    height:100%;
+  
+  }
+  .subcategoria1{
+  background-color:green;
+  height: 50%;
+  width: 100%;
+  }
+  .subcategoria2{
+  background-color:yellow;
+  height: 50%;
+  width: 100%;
+  }
+  
+  .ofertas{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-right: 5%;
+    padding-left:5%;
+  }
+  
+  h1{
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .ofertas div{
+  background-color: red;
+  width: 30%;
+  height: 50vh;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  }
+  
+  .contenedorOferta button{
+   width: 7%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+  }
+  
+  footer{
+    margin-top: 5%;
+    height: 35vh;
+    width: 100vw;
+    background-color: #999999;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+  }
