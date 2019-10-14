@@ -23,7 +23,7 @@
   padding-top:2%;
 }
 .navegacion{
-  padding-right: 8.5%;
+  padding-right: 9%;
   padding-left: 7%;
 }
 
@@ -130,7 +130,7 @@ margin:0.5%;
   }
 
   .ofertas div{
-  background-color: red;
+  background-color: #4F4887;
   width: 30%;
   height: 50vh;
   margin: 2%;
@@ -152,9 +152,27 @@ margin:0.5%;
 
   footer{
     margin-top: 5%;
-    height: 30vh;
-    width: 100vw;
     background-color: #4F4887;
     border-top-left-radius:6px;
     border-top-right-radius:6px;
+    padding-left: 30%;
+    padding-right: 30%;
+    overflow: hidden;
+  }
+
+  footer div a img{
+    width: 30px;
+    height: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+footer div{
+  text-align: center;
+}
+
+  h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
   }
