@@ -1,3 +1,8 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .log{
     width: 100%;
     padding-right: 6%;
@@ -65,7 +70,7 @@ margin:0.5%;
   z-index: 100;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   background-color: #ffffff;
   border-bottom-left-radius:6px;
   border-bottom-right-radius:6px;
@@ -85,7 +90,7 @@ margin:0.5%;
     flex-direction: row;
     margin: 0 auto;
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     margin-bottom:5%;
   }
   .cate img{
