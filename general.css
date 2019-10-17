@@ -15,7 +15,7 @@
     text-decoration: none;
   }
   nav{
-    overflow: hidden;
+
     box-sizing: border-box;
   }
 .busqueda{
@@ -28,8 +28,9 @@
 }
 
 
-.logo{
-  width: 50%;
+.logo img{
+  width: 110px;
+  height: 110px;
 }
 header img{
 margin:0.5%;
@@ -61,6 +62,7 @@ margin:0.5%;
   }
 
   header{
+  z-index: 100;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -159,8 +161,54 @@ margin:0.5%;
   height: 100%;
   }
 
-  footer{
-    margin-top: 5%;
+.contenedorForm{
+ margin-top: 3%;
+ background-color: #4F4887;
+  display: flex;
+  flex-wrap: nowrap;
+padding-top: 2%;
+padding-bottom: 2%;
+border-radius: 6px;
+}
+
+.formulario {
+  padding-left:3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+}
+
+form{
+  color:#4F4887;
+  font-family: 'Roboto Slab', serif;
+}
+.formulario h1{
+  color: #4F4887;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.formulario button{
+ padding: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #4F4887;
+}
+
+legend{
+  text-align: center;
+}
+
+ footer{
+    margin-top: 1%;
     background-color: #4F4887;
     border-top-left-radius:6px;
     border-top-right-radius:6px;
