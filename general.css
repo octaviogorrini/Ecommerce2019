@@ -3,144 +3,166 @@ body{
   margin-right: 0;
 }
 
-.log{
-    width: 100%;
-    padding-right: 6%;
-    background-color: #4F4887;
-    overflow: hidden;
-    box-sizing: border-box;
-
-  }
-  .log a{
-    font-size: 1em;
-    float: right;
-    color: white;
-    padding: 5px;
-    margin-right: 3%;
-    text-decoration: none;
-  }
-  nav{
-  }
-
-.busqueda{
-  float: right;
-  padding-top:2%;
-}
-
-.navegacion{
-  padding-right: 9%;
-  padding-left: 7%;
-}
-
-.logo img{
-  width: 110px;
-  height: 110px;
-}
-
-header img{
-margin:0.5%;
- float: left;
-}
-
-nav a{
-    font-family: 'Roboto', sans-serif;
-    float: right;
-    font-size: 1em;
-    display: inline-block;
-    color: #4F4887;
-    padding: 7px;
-    margin-right: 3%;
-    margin-top: 2%;
-    margin-bottom: 1%;
-    text-decoration: none;
-    box-sizing: border-box;
-
-  }
-
-  nav a:hover{
-    color:white;
-    background-color:#4F4887;
-    border-radius: 4px;
-  }
-
-  header{
+header{
   z-index: 100;
   position: fixed;
   top: 0;
   width: 100%;
+  height: 140px;
   background-color: #ffffff;
   border-bottom-left-radius:6px;
   border-bottom-right-radius:6px;
+  box-sizing: border-box;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #4F4887;
+}
+
+.log{
+  width: 100%;
+  padding-right: 6%;
+  background-color: #4F4887;
   overflow: hidden;
   box-sizing: border-box;
+}
+
+.log a{
+  font-size: 1em;
+  float: right;
+  color: white;
+  padding: 5px;
+  margin-right: 3%;
+  text-decoration: none;
+}
+
+header img{
+  width: 110px;
+  height: 110px;
+  margin-top: 2%;
+  margin-left: 20px;
+}
+
+.navegacion{
+  height: 112px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    color: #4F4887;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  .relleno{
-  height: 150px;
+nav a:hover{
+  color:white;
+  background-color:#4F4887;
+  border-radius: 4px;
+}
+
+nav a:focus{
+  color:white;
+  background-color: #00ebb8;
+  border-color: #00ebb8;
+  border-radius: 4px;
+}
+
+.busqueda{
+  width: 25vw;
+}
+
+.busqueda button{
+  background-color: #6e689e;
+  color: #fff;
+  border-radius: 5px;
+  border-color: #6e689e;
+}
+
+.busqueda button:hover{
+  background-color: #00ebb8;
+  border-color: #00ebb8;
+}
+
+main{
+  margin-top: 140px;
+}
+
+.cate{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 80vh;
   width: 100%;
-  overflow: hidden;
-  }
+  margin-bottom:5%;
+}
 
-  .cate{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin: 0 auto;
-    height: 80vh;
-    width: 100%;
-    margin-bottom:5%;
-  }
+.cate img{
+  width: 100%;
+  height: 100%;
+}
 
-  .cate img{
-    width: 100%;
-    height: 100%;
-    }
+.categoria{
+  background-color: red;
+  width: 50%;
+  height:100%;
+}
 
-  .categoria{
-    background-color: red;
-    width: 50%;
-    height:100%;
+.categoria2{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: red;
+  width: 50%;
+  height:100%;
+}
 
-  }
-
-  .categoria2{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    background-color: red;
-    width: 50%;
-    height:100%;
-
-  }
-
-  .subcategoria1{
+.subcategoria1{
   background-color:green;
   height: 50%;
   width: 100%;
-  }
-  .subcategoria2{
+}
+
+.subcategoria2{
   background-color:yellow;
   height: 50%;
   width: 100%;
-  }
+}
 
-  .ofertas{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin: 0 auto;
-    padding-right: 5%;
-    padding-left:5%;
-  }
+.ofertas{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-right: 5%;
+  padding-left:5%;
+}
 
-  h1{
-    color: #4F4887;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    text-align: center;
-  }
+h1{
+  color: #4F4887;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
 
-  .ofertas div{
+.ofertas div{
   background-color: #4F4887;
   width: 30%;
   height: 50vh;
@@ -148,32 +170,32 @@ nav a{
   margin-top: 0;
   margin-bottom: 0;
   box-sizing: border-box;
-  }
+}
 
-  .contenedorOferta button{
-   width: 7%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 2%;
-    font-family: 'Roboto Slab', serif;
-    color: White;
-    background-color: #4F4887;
-  }
+.contenedorOferta button{
+ width: 7%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+  font-family: 'Roboto Slab', serif;
+  color: White;
+  background-color: #4F4887;
+}
 
 
 .ofertas img{
   width: 100%;
   height: 100%;
-  }
+}
 
 .contenedorForm{
- margin-top: 3%;
- background-color: #4F4887;
+  margin-top: 3%;
+  background-color: #4F4887;
   display: flex;
   flex-wrap: nowrap;
-padding-top: 2%;
-padding-bottom: 2%;
-border-radius: 6px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 6px;
 }
 
 .formulario {
@@ -223,20 +245,37 @@ legend{
     overflow: hidden;
   }
 
-  footer div a img{
-    width: 30px;
-    height: 30px;
-margin-top: 10px;
-margin-bottom: 10px;
+footer div a img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer div{
   text-align: center;
 }
 
-  h2{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    text-align: center;
+h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+@media (max-width: 1230px){
+  nav a{
+    margin-right: 5px;
+    margin-left: 5px;
   }
+
+  .busqueda input{
+    width: 175px;
+  }
+}
+
+@media (max-width: 850px){
+  nav{
+    width: 30vw;
+  }
+}
