@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+.contenedorFaq{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(210, 210, 210, 0.5);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.contenedorFaq h1{
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #4F4887;
+}
+
+.contenedorFaq h3{
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.contenedorFaq p{
+  margin-top:0px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.faqPersonal{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: lightgrey;
+  width: 60vw;
+}
+
+.faqPersonal form {
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.faqPersonal h2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  color: #4F4887;
+  border: solid;
+  border-width: 1px;
+  border-color: #4F4887;
+  padding: 2px;
+}
+
+.faqPersonal form input {
+  width: 80%;
+}
+
+.faqPersonal form textarea{
+  width: 80%;
+}
+
+.faqPersonal button{
+  width: 75%;
+  height: 35px;
+  background-color: #6e689e;
+  color: #fff;
+  border-radius: 5px;
+  border-color: #6e689e;
+}
+
+.faqPersonal button:hover{
+  background-color: #00ebb8;
+  border-color: #00ebb8;
+}

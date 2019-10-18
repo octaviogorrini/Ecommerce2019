@@ -13,16 +13,20 @@ main {
 
 .contForm{
   margin-top: 40px;
-  width: 20vw;
-  height: 65vh;
+  margin-bottom: 20px;
+  width: 40vw;
+  height: 80vh;
   background-color:#ebebeb;
   opacity: .95;
   padding: 0 18px;
   box-shadow: 0px 0px 3px #848484;
-  z-index: -1;
 }
 
-.formulario{
+.tituloRegistro{
+  text-transform: uppercase;
+}
+
+.formularioRegistro{
   height: 62vh;
   display: flex;
   flex-wrap: wrap;
@@ -32,20 +36,30 @@ main {
 
 }
 
-.formulario input{
+.formularioRegistro input{
   width: 80%;
   border-radius: 5px;
   line-height: 30px;
   border-width: thin;
 }
 
-.formulario button{
+.formularioRegistro input:focus{
+  background-color: rgba(210, 210, 210, 0.5);
+
+}
+
+.formularioRegistro button{
   width: 75%;
   height: 35px;
   background-color: #6e689e;
   color: #fff;
   border-radius: 5px;
-  border-bottom: 4px solid #4F4887;
+  border-color: #6e689e;
+}
+
+.formularioRegistro button:hover{
+  background-color: #00ebb8;
+  border-color: #00ebb8;
 }
 
 .contForm a{
