@@ -45,12 +45,13 @@
 }
 
 .faqPersonal form {
-  height: 250px;
+  height: 270px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .faqPersonal h2{
