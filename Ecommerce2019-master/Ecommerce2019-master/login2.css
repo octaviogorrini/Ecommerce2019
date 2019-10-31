@@ -1,0 +1,187 @@
+.log{
+    width: 100%;
+    padding-right: 6%;
+    background-color: #4F4887;
+    overflow: hidden;
+    box-sizing: border-box;
+
+  }
+  .log a{
+    font-size: 1em;
+    float: right;
+    color: white;
+    padding: 5px;
+    margin-right: 3%;
+    text-decoration: none;
+  }
+  nav{
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+.busqueda{
+  float: right;
+  padding-top:2%;
+}
+.navegacion{
+  padding-right: 9%;
+  padding-left: 7%;
+}
+
+
+.logo{
+  width: 50%;
+}
+header img{
+margin:0.5%;
+ float: left;
+  width:9%;
+  height: 9%;
+}
+
+
+  nav a{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    font-size: 1em;
+    display: inline-block;
+    color: #4F4887;
+    padding: 7px;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-decoration: none;
+    box-sizing: border-box;
+
+  }
+
+  nav a:hover{
+    color:white;
+    background-color:#4F4887;
+    border-radius: 4px;
+  }
+
+  header{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #ffffff;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  overflow: hidden;
+  box-sizing: border-box;
+  }
+
+  .relleno{
+  height: 13vh;
+  width: 100%;
+  overflow: hidden;
+  }
+
+  .cate{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 80vh;
+    width: 100vw;
+    margin-bottom:5%;
+  }
+  .cate img{
+    width: 100%;
+    height: 100%;
+    }
+  .categoria{
+    background-color: red;
+    width: 50%;
+    height:100%;
+
+  }
+
+  .categoria2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: red;
+    width: 50%;
+    height:100%;
+
+  }
+  .subcategoria1{
+  background-color:green;
+  height: 50%;
+  width: 100%;
+  }
+  .subcategoria2{
+  background-color:yellow;
+  height: 50%;
+  width: 100%;
+  }
+
+  .ofertas{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-right: 5%;
+    padding-left:5%;
+  }
+
+  h1{
+    color: #4F4887;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .ofertas div{
+  background-color: #4F4887;
+  width: 30%;
+  height: 50vh;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  }
+
+  .contenedorOferta button{
+   width: 7%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+    font-family: 'Roboto Slab', serif;
+    color: White;
+    background-color: #4F4887;
+  }
+
+
+.ofertas img{
+  width: 100%;
+  height: 100%;
+  }
+
+  footer{
+    margin-top: 5%;
+    background-color: #4F4887;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    padding-left: 30%;
+    padding-right: 30%;
+    overflow: hidden;
+  }
+
+  footer div a img{
+    width: 30px;
+    height: 30px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+footer div{
+  text-align: center;
+}
+
+  h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+  }
