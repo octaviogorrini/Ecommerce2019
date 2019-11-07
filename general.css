@@ -100,6 +100,7 @@ nav a:focus{
   color: #fff;
   border-radius: 5px;
   border-color: #6e689e;
+  transition: 0.3s;
 }
 
 .busqueda button:hover{
@@ -119,14 +120,27 @@ main{
   margin: 0 auto;
   height: auto;
   width: 100%;
-  margin-bottom:5%;
+  margin-bottom:100px;
+
 }
 
 .cate img{
   width: 100%;
   height: auto;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
 }
 
+
+
+.cate img:hover {
+    -webkit-transform: scale(0.99);
+    -moz-transform: scale(0.99);
+    -o-transform: scale(0.99);
+    transform: scale(0.99);
+}
 
 .categoria{
   width: 50%;
@@ -168,7 +182,7 @@ h1{
 }
 
 .ofertas div{
-  background-color: grey;
+  background-color:white;
   width: 30%;
   height: auto;
   margin: 2%;
@@ -177,9 +191,13 @@ h1{
   box-sizing: border-box;
 }
 
+.contenedorOferta{
+  margin-top: 90px;
+}
+
 .contenedorOferta button{
  width: auto;
-  padding: 16px 32px;
+  padding: 8px 16px;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 2%;
@@ -187,11 +205,13 @@ h1{
   color: White;
   background-color: #4F4887;
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .contenedorOferta button:hover {
-  background-color: white;
-  color: #4F4887;
+  color: white;
+  background-color: #00ebb8;
+  border-color: #00ebb8;
 }
 
 .ofertas img{
@@ -209,7 +229,7 @@ transition: opacity .25s ease-in-out;
 }
 
 .contenedorForm{
-  margin-top: 3%;
+  margin-top: 100px;
   background-color: #4F4887;
   display: flex;
   flex-wrap: nowrap;
@@ -242,7 +262,7 @@ form{
 }
 
 .formulario button{
- padding: 16px 32px;
+ padding: 8px 16px;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 10%;
@@ -251,10 +271,12 @@ form{
   color: white;
   transition: 0.3s;
   background-color: #4F4887;
+  border-radius: 10px;
 }
 .formulario button:hover {
-  background-color: white;
-  color: #4F4887;
+  color: white;
+  background-color: #00ebb8;
+  border-color: #00ebb8;
 }
 
 legend{
@@ -351,16 +373,6 @@ h2{
 }
 
 
-@media (max-width:375px){
-  .ofertas div{
-  width:100%;
-
-}
-
-textarea{
-  width: 200px;
-}
-  }
 
   @media  (max-width:550px){
     main{
@@ -371,6 +383,30 @@ textarea{
     }
   }
 
+
+  @media (min-width:425px){
+  .cate{
+    margin-bottom: 140px;
+  }
+
+  }
+
+  @media (max-width:375px){
+    .ofertas div{
+    width:100%;
+
+  }
+
+  textarea{
+    width: 250px;
+  }
+  .contenedorOferta{
+    margin-top: 50px;
+  }
+    }
+
+
+
   @media(max-width:324px){
 
     main{
@@ -378,5 +414,9 @@ textarea{
     }
     header{
       height: 280px;
+    }
+
+    nav a{
+      margin-top:6px;
     }
   }
