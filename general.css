@@ -47,13 +47,12 @@ header img{
   margin-top: 2%;
   margin-left: 20px;
 }
-
 .navegacion{
-  height: 112px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+justify-content: space-between;
   align-items: center;
 }
 
@@ -73,15 +72,17 @@ nav a{
     color: #4F4887;
     text-decoration: none;
     box-sizing: border-box;
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 8px 16px;
+    transition: 0.3s;
+    border-radius: 10px;
+
   }
 
 nav a:hover{
-  color:white;
-  background-color:#4F4887;
-  border-radius: 4px;
+  color: white;
+  background-color: #00ebb8;
+  border-color: #00ebb8;
+
 }
 
 nav a:focus{
@@ -408,7 +409,9 @@ h2{
 
 
   @media(max-width:324px){
-
+    .busqueda{
+      float: right;
+    }
     main{
       margin-top: 280px;
     }
